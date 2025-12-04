@@ -1,0 +1,16 @@
+{
+  "name": "electron-tm",
+  "version": "1.0.0",
+  "description": "open source task manager",
+  "main": "main.ts",
+  "repository": "https://github.com/monokkai/electron-task-verse",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monokkai",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^39.2.5"
+  }
+}
