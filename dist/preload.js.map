@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/preload.js"],
+  "sourcesContent": ["const { contextBridge } = require(\"electron\");\n\ncontextBridge.exposeInMainWorld(\"electronAPI\", {\n  platform: process.platform,\n  versions: {\n    node: () => process.versions.node,\n    chrome: () => process.versions.chrome,\n    electron: () => process.versions.electron,\n  },\n});\n"],
+  "mappings": ";;;AAAA,IAAM,EAAE,cAAc,IAAI,QAAQ,UAAU;AAE5C,cAAc,kBAAkB,eAAe;AAAA,EAC7C,UAAU,QAAQ;AAAA,EAClB,UAAU;AAAA,IACR,MAAM,MAAM,QAAQ,SAAS;AAAA,IAC7B,QAAQ,MAAM,QAAQ,SAAS;AAAA,IAC/B,UAAU,MAAM,QAAQ,SAAS;AAAA,EACnC;AACF,CAAC;",
+  "names": []
+}

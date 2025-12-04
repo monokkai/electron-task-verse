@@ -1,10 +1,11 @@
 import React, { FC } from "react";
+import { Box, Text } from "@chakra-ui/react";
 
 const App: FC = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Box bg={"red.400"}>
+      <Text as="h1">Hello World</Text>
+    </Box>
   );
 };
 
