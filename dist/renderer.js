@@ -69372,9 +69372,15 @@ ${err}`);
           icon: FaHome,
           color: "blue.400",
           isActive: true,
-          badge: 3
+          badge: void 0
         },
-        { id: 2, label: "Tasks", icon: FaListUl, color: "green.400", badge: 12 },
+        {
+          id: 2,
+          label: "Tasks",
+          icon: FaListUl,
+          color: "green.400",
+          badge: void 0
+        },
         { id: 3, label: "Calendar", icon: FaCalendarAlt, color: "purple.400" },
         { id: 4, label: "Analytics", icon: FaChartBar, color: "orange.400" },
         { id: 5, label: "Projects", icon: FaFolder, color: "pink.400" },
