@@ -1,0 +1,10 @@
+/* src/index.css */
+html,
+body,
+#root {
+  height: 100%;
+  background-color: transparent !important;
+  margin: 0;
+  overflow: hidden;
+}
+/*# sourceMappingURL=renderer.css.map */

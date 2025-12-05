@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css"],
+  "sourcesContent": ["html,\nbody,\n#root {\n  height: 100%;\n  background-color: transparent !important;\n  margin: 0;\n  overflow: hidden;\n}\n"],
+  "mappings": ";AAAA;AACA;AACA,CAAC;AACC,UAAQ;AACR,oBAAkB;AAClB,UAAQ;AACR,YAAU;AACZ;",
+  "names": []
+}

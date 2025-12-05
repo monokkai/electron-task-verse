@@ -6,10 +6,18 @@ function createWindow() {
   const win = new BrowserWindow({
     width: 1600,
     height: 900,
+    transparent: true,
+    frame: false,
+    titleBarStyle: "hiddenInset",
+    trafficLightPosition: { x: 15, y: 10 },
+    vibrancy: "under-window",
+    visualEffectState: "active",
+    backgroundColor: "#00000000",
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       nodeIntegration: false,
       contextIsolation: true,
+      webgl: true,
     },
   });
 
