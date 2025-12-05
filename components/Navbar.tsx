@@ -7,21 +7,31 @@ const Navbar: FC = () => {
       as="div"
       bg={"transparent"}
       position="fixed"
+      p="10px"
       blur="sm"
-      top="30px"
+      top="50px"
       border={"1px solid"}
       borderColor={"red.200"}
-      left="10px"
+      left="20px"
       color={"white"}
-      height="50px"
-      borderRadius={"md"}
+      height="650px"
+      borderRadius={"xl"}
       display="flex"
       alignItems="center"
+      textAlign="center"
       flexDirection="cloumn"
+      justifyContent="center"
       width="200px"
       css={{ WebkitAppRegion: "no-drag" }}
     >
-      <Text>adasdasd</Text>
+      <Box>
+        <Text>adasdasd</Text>
+        <Text>adasdasd</Text>
+        <Text>adasdasd</Text>
+        <Text>adasdasd</Text>
+        <Text>adasdasd</Text>
+        <Text>adasdasd</Text>
+      </Box>
     </Box>
   );
 };
