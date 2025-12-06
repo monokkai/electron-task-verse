@@ -3,7 +3,6 @@ import React, { FC, useState } from "react";
 import { FaCog, FaUser } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import { navItems, quickActions } from "../lib/items";
-import { create } from "zustand";
 
 const MotionBox = motion(Box);
 const MotionIconButton = motion(IconButton);
